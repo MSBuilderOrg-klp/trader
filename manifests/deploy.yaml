@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: trader
-        image: cfc:8500/default/trader:latest
+        image: master.cfc:8500/default/trader:latest
         ports:
           - containerPort: 9080
         imagePullPolicy: IfNotPresent
