@@ -62,7 +62,7 @@ public class Summary extends HttpServlet {
 		writer.append("      <table border=\"1\" cellpadding=\"5\">");
 		writer.append("        <tr>");
 		writer.append("          <th></th>");
-		writer.append("          <th>Owner</th>");
+		writer.append("          <th>Portfolio Owner</th>");
 		writer.append("          <th>Total</th>");
 		writer.append("          <th>Loyalty Level</th>");
 		writer.append("        </tr>");
